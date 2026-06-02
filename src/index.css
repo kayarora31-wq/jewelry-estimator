@@ -1,0 +1,11 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #faf9f7;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+  min-height: 100vh;
+}
+
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: 0.6; }
